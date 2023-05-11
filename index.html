@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="imagenes/logo-alura.png"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    <title>Encriptador</title>
+</head>
+<body>
+    <header>
+        <div class="caja">
+            <img src="imagenes/logo-alura.png" alt="Logo alura" class="logo-alura">
+            <h1 class="titulo">ENCRIPTADOR <em> por Christofer Alcaraz</em></h1>
+        </div>
+    </header>
+    <main>
+        <div class="message-input">
+            <form action="">
+                <textarea name="message" id="message-to-encrypt" class="message-to-encrypt" onclick="eraseText(this)">Ingrese el texto aquí.</textarea>
+                <img src="imagenes/signo-admiracion.png" alt="signo de admiración" class="signo-admiracion">
+                <label for="message-to-encrypt" class="text-label">Solo letras minúsculas y sin acentos</label>
+                <input type="button" name="encrypt" id="encrypt" value="Encriptar" class="btn-encrypt" onclick="encryptText(this)">
+                <input type="button" id="unencrypt" value="Desencriptar" class="btn-unencrypt" onclick="unencryptText(this)">
+            </form>
+        </div>
+        <div class="message-output">
+            <p class="message-encripted" id="messageEncrypted"></p>
+            <img src="imagenes/imagen-muñeco-encriptador.png" alt="Dibujo animado de una persona" class="message-empty" id="dibujoDisappear">
+            <p class="not-message-found" id="message1Disappear">Ningún mensaje fue encontrado</p>
+            <p class="insert-text" id="message2Disappear">Ingresa el texto que desees encriptar o desencriptar</p>
+            <button class="btn-copy" id="btnCopy" onclick="copyContent(this)">Copiar</button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

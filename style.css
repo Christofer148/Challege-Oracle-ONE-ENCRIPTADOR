@@ -1,0 +1,191 @@
+body{
+    background-color: #F3F5FC;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.logo-alura{
+    position: absolute;
+    width: 30px;
+    left: 35px;
+    top: 35px;
+}
+
+.caja{
+    position: relative;
+    width: 1440px;
+    height: 100px;
+    margin: 0 auto;
+}
+
+.titulo{
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 30px;
+    color: #0A3871;
+    font-style: bold;
+}
+
+.titulo em{
+    font-size: 15px;
+    color: #8A97AA;
+}
+
+main{
+    position: relative;
+    width: 1440px;
+    height: 600px;
+    margin: 0 auto;
+}
+
+.message-input{
+    display: inline-block;
+    width: 950px;
+    height: 544px;
+    margin: 40px;
+    vertical-align: top;
+}
+
+.message-to-encrypt{
+    background-color: #F3F5FC;
+    display: block;
+    border-style: none;
+    position: relative;
+    width: 800px;
+    height: 450px;
+    margin: 0px 0px 0px 80px;
+    resize: none;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 25px;
+    color: #0A3871;
+    outline: none;
+}
+
+.signo-admiracion{
+    width: 20px;
+    display: inline-block;
+    margin: 0 10px 0 80px;
+    vertical-align: middle;
+}
+
+.text-label{
+    display: inline-block;
+    margin: 0;
+    width: 800px;
+    vertical-align: middle;
+    color: #495057;
+}
+
+.btn-encrypt{
+    margin: 15px 10px 0 80px;
+    padding: 24px;
+    gap: 8px;
+
+    width: 328px;
+    height: 67px;
+
+    /* Dark blue/dark-blue-300 */
+
+    background: #0A3871;
+    border-radius: 24px;
+
+    text-align: center;
+    font-size: large;
+    color: #fff;
+}
+
+.btn-unencrypt{
+    margin: 15px 10px 0 10px;
+    padding: 24px;
+    gap: 8px;
+
+    width: 328px;
+    height: 67px;
+
+    /* Dark blue/dark-blue-300 */
+
+    background: #F3F5FC;
+    border-radius: 24px;
+    border: 2px solid #0A3871;
+
+    text-align: center;
+    font-size: large;
+    color: #0A3871;
+}
+
+.btn-encrypt:hover, .btn-unencrypt:hover, .btn-copy:hover{
+    cursor: pointer;
+}
+
+.message-output{
+    display: inline-block;
+    position: relative;
+    width: 400px;
+    height: 620px;
+    margin: 0px;
+
+    /* White */
+
+    background: #FFFFFF;
+    /* shadow */
+
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    border-radius: 32px;
+}
+
+.message-encripted{
+    margin: 50px 40px;
+    font-size: large;
+    color: #495057;
+}
+
+.message-empty{
+    display: block;
+    position: relative;
+    width: 300px;
+    margin: 100px auto 0 auto;
+}
+
+.not-message-found{
+    position: relative;
+    margin: 80px 20px 20px 20px;
+    text-align: center;
+    font-weight: bold;
+    font-size: x-large;
+    color: #343A40;
+}
+
+.insert-text{
+    position: relative;
+    margin: 15px 20px;
+    text-align: center;
+    font-size: large;
+    color: #495057;
+}
+
+.btn-copy{
+    position: absolute;
+    top: 520px;
+    left: calc(50% - 164px);
+    margin: 10px auto;
+    padding: 24px;
+    gap: 8px;
+
+    width: 328px;
+    height: 67px;
+
+    /* Dark blue/dark-blue-300 */
+
+    background: #fff;
+    border-radius: 24px;
+    border: 2px solid #0A3871;
+
+    text-align: center;
+    font-size: large;
+    color: #0A3871;
+    display: none;
+}
