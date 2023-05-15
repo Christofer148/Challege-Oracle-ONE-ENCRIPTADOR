@@ -18,11 +18,16 @@ function encryptText(){
     let messageToEncrypt = message.value;
     
     if(messageToEncrypt == ""){
-        imagenOutput.style.display = 'block';
-        text1Output.style.display = 'block';
-        text2Output.style.display = 'block';
         textOutput.style.display = 'none';
         copyButton.style.display = 'none';
+        text1Output.style.display = 'block';
+        text2Output.style.display = 'block';
+        
+        if(screen.width <= 768){
+            imagenOutput.style.display = 'none';
+        }else{
+            imagenOutput.style.display = 'block';
+        }  
     }else{
         message.value = "";
         // filtro para la letra e
@@ -57,11 +62,16 @@ function unencryptText(){
     let messageToEncrypt = message.value;
 
     if(messageToEncrypt == ""){
-        imagenOutput.style.display = 'block';
-        text1Output.style.display = 'block';
-        text2Output.style.display = 'block';
         textOutput.style.display = 'none';
         copyButton.style.display = 'none';
+        text1Output.style.display = 'block';
+        text2Output.style.display = 'block';
+        
+        if(screen.width <= 768){
+            imagenOutput.style.display = 'none';
+        }else{
+            imagenOutput.style.display = 'block';
+        }
     }else{
         message.value = "";
         // filtro para la letra ufat

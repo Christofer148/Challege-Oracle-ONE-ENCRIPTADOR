@@ -138,7 +138,7 @@ main{
 
 .message-encripted{
     margin: 3.125rem 2.5rem;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     color: #495057;
 }
 
@@ -183,7 +183,7 @@ main{
     border: 2px solid #0A3871;
 
     text-align: center;
-    font-size: 1.2rem;
+    font-size: large;
     color: #0A3871;
     display: none;
 }
@@ -196,6 +196,7 @@ main{
 
     .message-input{
         width: 100%;
+        margin: 2% 0;
     }
 
     .message-to-encrypt{
@@ -209,6 +210,11 @@ main{
 
     .btn-encrypt{
         margin-left: 2rem;
+        padding: 1rem;
+    }
+    
+    .btn-unencrypt{
+        padding: 1rem;
     }
 
     .message-output{
@@ -229,5 +235,36 @@ main{
     .insert-text{
         margin: 3% 0 5% 0;
         font-size: 1.5rem;
+    }
+
+    .btn-copy{
+        position: relative;
+        top: 0;
+        left: 0;
+        padding: 1rem;
+        margin: 5% 7.5%;
+    }
+}
+
+@media screen and (max-width: 375px) {
+
+    html{
+        font-size: 70%;
+    }
+
+    .signo-admiracion{
+        width: 1rem;
+    }
+
+    .btn-encrypt{
+        width: 90%;
+        margin: 1rem 5%;
+        padding: 1rem;
+    }
+
+    .btn-unencrypt{
+        width: 90%;
+        margin: 0 5%;
+        padding: 1rem;
     }
 }
