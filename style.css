@@ -1,51 +1,52 @@
+html{
+    font-size: 100%;
+}
+
 body{
     background-color: #F3F5FC;
     font-family: 'Open Sans', sans-serif;
     font-family: 'Source Sans Pro', sans-serif;
 }
 
-.logo-alura{
-    position: absolute;
-    width: 30px;
-    left: 35px;
-    top: 35px;
-}
-
 .caja{
     position: relative;
-    width: 1440px;
-    height: 100px;
-    margin: 0 auto;
+    width: 100%;
+    margin: 0;
+}
+
+.logo-alura{
+    position: absolute;
+    width: 1.2%;
+    left: 2%;
+    top: 40%;
 }
 
 .titulo{
     position: relative;
     display: inline-block;
     width: 100%;
+    margin-top: 3rem;
     text-align: center;
-    margin-top: 50px;
-    font-size: 30px;
+    font-size: 2rem;
     color: #0A3871;
     font-style: bold;
 }
 
 .titulo em{
-    font-size: 15px;
+    font-size: 1rem;
     color: #8A97AA;
 }
 
 main{
     position: relative;
-    width: 1440px;
-    height: 600px;
-    margin: 0 auto;
+    width: 100%;
+    margin: 2rem 0 0 0;
 }
 
 .message-input{
     display: inline-block;
-    width: 950px;
-    height: 544px;
-    margin: 40px;
+    width: 70%;
+    margin: 2%;
     vertical-align: top;
 }
 
@@ -54,28 +55,28 @@ main{
     display: block;
     border-style: none;
     position: relative;
-    width: 800px;
-    height: 450px;
-    margin: 0px 0px 0px 80px;
+    font-size: 1.5em;
+    width: 100%;
+    height: 37.5rem;
+    margin: 0 0 0 7%;
     resize: none;
     font-family: 'Open Sans', sans-serif;
     font-family: 'Source Sans Pro', sans-serif;
-    font-size: 25px;
     color: #0A3871;
     outline: none;
 }
 
 .signo-admiracion{
-    width: 20px;
+    width: 1.5%;
     display: inline-block;
-    margin: 0 10px 0 80px;
+    margin: 0 0.5rem 0 5rem;
     vertical-align: middle;
 }
 
 .text-label{
     display: inline-block;
     margin: 0;
-    width: 800px;
+    width: 90%;
     vertical-align: middle;
     color: #495057;
 }
@@ -124,8 +125,8 @@ main{
 .message-output{
     display: inline-block;
     position: relative;
-    width: 400px;
-    height: 620px;
+    width: 20%;
+    height: 45rem;
     margin: 0px;
 
     /* White */
@@ -138,45 +139,44 @@ main{
 }
 
 .message-encripted{
-    margin: 50px 40px;
-    font-size: large;
+    margin: 3.125rem 2.5rem;
+    font-size: 1.2rem;
     color: #495057;
 }
 
 .message-empty{
     display: block;
     position: relative;
-    width: 300px;
-    margin: 100px auto 0 auto;
+    width: 75%;
+    margin: 30% auto 30% auto;
 }
 
 .not-message-found{
     position: relative;
-    margin: 80px 20px 20px 20px;
+    margin: 10% 5% 5% 5%;
     text-align: center;
     font-weight: bold;
-    font-size: x-large;
+    font-size: 1.5rem;
     color: #343A40;
 }
 
 .insert-text{
     position: relative;
-    margin: 15px 20px;
+    margin: 5% 5%;
     text-align: center;
-    font-size: large;
+    font-size: 1.2rem;
     color: #495057;
 }
 
 .btn-copy{
     position: absolute;
-    top: 520px;
+    top: 39rem;
     left: calc(50% - 164px);
-    margin: 10px auto;
-    padding: 24px;
-    gap: 8px;
-
-    width: 328px;
-    height: 67px;
+    margin: 2% auto;
+    padding: 1.2rem;
+    
+    width: 85%;
+    height: 4rem;
 
     /* Dark blue/dark-blue-300 */
 
@@ -185,7 +185,8 @@ main{
     border: 2px solid #0A3871;
 
     text-align: center;
-    font-size: large;
+    font-size: 1.2rem;
     color: #0A3871;
     display: none;
 }
+
