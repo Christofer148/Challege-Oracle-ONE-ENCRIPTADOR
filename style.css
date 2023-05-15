@@ -16,7 +16,7 @@ body{
 
 .logo-alura{
     position: absolute;
-    width: 1.2%;
+    width: 1.5rem;
     left: 2%;
     top: 40%;
 }
@@ -76,18 +76,17 @@ main{
 .text-label{
     display: inline-block;
     margin: 0;
-    width: 90%;
+    width: 80%;
     vertical-align: middle;
     color: #495057;
 }
 
 .btn-encrypt{
-    margin: 15px 10px 0 80px;
-    padding: 24px;
-    gap: 8px;
+    margin: 1rem 0.625rem 0 5rem;
+    padding: 1.5rem;
 
-    width: 328px;
-    height: 67px;
+    width: 20.5rem;
+    height: 4rem;
 
     /* Dark blue/dark-blue-300 */
 
@@ -100,12 +99,11 @@ main{
 }
 
 .btn-unencrypt{
-    margin: 15px 10px 0 10px;
-    padding: 24px;
-    gap: 8px;
+    margin: 1rem 0.625rem 0 0.625rem;
+    padding: 1.5rem;
 
-    width: 328px;
-    height: 67px;
+    width: 20.5rem;
+    height: 4rem;
 
     /* Dark blue/dark-blue-300 */
 
@@ -190,3 +188,46 @@ main{
     display: none;
 }
 
+@media only screen and (max-width: 768px) {
+
+    .logo-alura{
+        left: 5%;
+    }
+
+    .message-input{
+        width: 100%;
+    }
+
+    .message-to-encrypt{
+        width: 90%;
+        margin: 2% auto;
+    }
+
+    .signo-admiracion{
+        margin: 0 0.2rem 0 2rem;
+    }
+
+    .btn-encrypt{
+        margin-left: 2rem;
+    }
+
+    .message-output{
+        width: 90%;
+        margin: 5%;
+        height: 100%;
+    }
+
+    .message-empty{
+        display: none;
+    }
+
+    .not-message-found{
+        margin: 5% 0 0 0;
+        font-size: 1.7rem;
+    }
+
+    .insert-text{
+        margin: 3% 0 5% 0;
+        font-size: 1.5rem;
+    }
+}
