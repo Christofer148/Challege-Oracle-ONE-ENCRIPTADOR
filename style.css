@@ -136,6 +136,7 @@ main{
 }
 
 .message-encripted{
+    width: 90%;
     margin: 3.125rem 2.5rem;
     font-size: 1.5rem;
     color: #495057;
@@ -230,8 +231,9 @@ main{
     }
     
     .message-encripted{
-        width: 100%;
         height: auto;
+        width: 90%;
+        margin: 3rem auto;
     }
 
     .message-empty{
